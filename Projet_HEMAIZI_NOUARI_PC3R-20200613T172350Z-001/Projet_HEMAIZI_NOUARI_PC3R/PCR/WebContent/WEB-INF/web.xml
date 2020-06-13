@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+	
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>servlets.Index</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>Contact</servlet-name>
+		<servlet-class>servlets.Contact</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Contact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>Offre</servlet-name>
+		<servlet-class>servlets.Offre</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Offre</servlet-name>
+		<url-pattern>/offre</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Propose</servlet-name>
+		<servlet-class>servlets.Propose</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Propose</servlet-name>
+		<url-pattern>/propose</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>SignIn</servlet-name>
+		<servlet-class>servlets.SignIn</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignIn</servlet-name>
+		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>servlets.SignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>Deconnexion</servlet-name>
+		<servlet-class>servlets.Deconnexion</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Deconnexion</servlet-name>
+		<url-pattern>/deconnexion</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ListeVols</servlet-name>
+		<servlet-class>servlets.ListeVols</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ListeVols</servlet-name>
+		<url-pattern>/listevols</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>Profil</servlet-name>
+		<servlet-class>servlets.Profil</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Profil</servlet-name>
+		<url-pattern>/profil</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>Reservation</servlet-name>
+		<servlet-class>servlets.Reservation</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Reservation</servlet-name>
+		<url-pattern>/reservation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+</web-app>
